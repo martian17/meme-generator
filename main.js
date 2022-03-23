@@ -172,7 +172,7 @@ let main = async function(){
     `);
     btn.on("click",()=>{
         let link = document.createElement('a');
-        link.download = 'filename.png';
+        link.download = 'harrycar.png';
         link.href = canvas.e.toDataURL();
         link.click();
     });
